@@ -1,0 +1,33 @@
+{
+    "name": "oysterstar/bpm",
+    "type": "library",
+    "description": "bpm framework bundle for symfony application",
+        "license": "proprietary",
+        "autoload": {
+            "psr-4": {
+                "OysterStar\\BPM\\": "src/"
+            }
+        },
+        "repositories": [
+        ],
+        "require": {
+            "php": ">=7.0",
+            "phpmentors/domain-kata": "~1.4",
+            "isite/concerto-solo-operation-log-bundle": "~2.0",
+            "jms/serializer-bundle": "~1.0|~2.0|~3.0",
+            "symfony/framework-bundle": "~2.7|~3.0|~4.0",
+            "doctrine/doctrine-bundle": "~1.4|~2.0",
+            "doctrine/orm": "^2.4.8",
+            "twig/twig": "^1.0|^2.0|^3.0",
+            "guzzlehttp/guzzle": "^6.3",
+            "monolog/monolog": "^1.0||^2.0"
+        },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0.x-dev"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~8.4"
+    }
+}
